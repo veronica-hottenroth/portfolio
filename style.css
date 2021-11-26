@@ -6,6 +6,8 @@
 
 body {
   margin-top: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 h1,
@@ -32,9 +34,21 @@ p {
   line-height: 1.5;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 380px) {
   .email-link {
-    font-size: 15px;
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 75px;
+  }
+
+  .primary-link .secondary-link {
+    font-size: 12px;
+  }
+
+  body {
+    font-size: 12px;
   }
 }
 
